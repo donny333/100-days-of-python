@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2024-05-26T05:34:54.763Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="JR6Abh5-7lZBMeHylbqP" version="21.2.9" type="device">
+  <diagram name="Page-1" id="qs6nPZRAwY9cRQSbq-TB">
+    <mxGraphModel dx="1060" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WKKtjosWNxolImny7Fs_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#FF6392;fontColor=default;" edge="1" parent="1" source="WKKtjosWNxolImny7Fs_-1" target="WKKtjosWNxolImny7Fs_-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413" y="-750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-1" value="Ask user to enter a letter." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="353" y="-860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#FF6392;fontColor=default;" edge="1" parent="1" source="WKKtjosWNxolImny7Fs_-17" target="WKKtjosWNxolImny7Fs_-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="212.99999999999977" y="-709.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-44" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" connectable="0" parent="WKKtjosWNxolImny7Fs_-18">
+          <mxGeometry x="0.6017" y="1" relative="1" as="geometry">
+            <mxPoint x="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#FF6392;fontColor=default;" edge="1" parent="1" source="WKKtjosWNxolImny7Fs_-17" target="WKKtjosWNxolImny7Fs_-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="653" y="-709.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-45" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" connectable="0" parent="WKKtjosWNxolImny7Fs_-19">
+          <mxGeometry x="0.6295" y="1" relative="1" as="geometry">
+            <mxPoint x="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-17" value="Does the word includes letter?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="353" y="-750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#FF6392;fontColor=default;" edge="1" parent="1" source="WKKtjosWNxolImny7Fs_-23" target="WKKtjosWNxolImny7Fs_-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="293" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-47" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" connectable="0" parent="WKKtjosWNxolImny7Fs_-25">
+          <mxGeometry x="0.3147" y="1" relative="1" as="geometry">
+            <mxPoint x="-24" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-48" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#FF6392;fontColor=default;" edge="1" parent="1" source="WKKtjosWNxolImny7Fs_-23" target="WKKtjosWNxolImny7Fs_-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="173" y="-610" />
+              <mxPoint x="173" y="-840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-49" value="Flase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" connectable="0" parent="WKKtjosWNxolImny7Fs_-48">
+          <mxGeometry x="-0.3427" y="-1" relative="1" as="geometry">
+            <mxPoint x="-24" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-23" value="Is it all letters guesed?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="213" y="-650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-29" value="You win!" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="213" y="-490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#FF6392;fontColor=default;" edge="1" parent="1" source="WKKtjosWNxolImny7Fs_-31" target="WKKtjosWNxolImny7Fs_-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="573" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-46" value="Flase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" connectable="0" parent="WKKtjosWNxolImny7Fs_-32">
+          <mxGeometry x="0.2621" y="2" relative="1" as="geometry">
+            <mxPoint x="25" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#FF6392;fontColor=default;" edge="1" parent="1" source="WKKtjosWNxolImny7Fs_-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="473" y="-840" as="targetPoint" />
+            <mxPoint x="623" y="-620" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="653" y="-610" />
+              <mxPoint x="653" y="-840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-50" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#5AA9E6;" vertex="1" connectable="0" parent="WKKtjosWNxolImny7Fs_-33">
+          <mxGeometry x="-0.3582" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-31" value="Do you have more guesses?" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="503" y="-650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-37" value="You lose :(" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="503" y="-490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#FF6392;fontColor=default;" edge="1" parent="1" source="WKKtjosWNxolImny7Fs_-40" target="WKKtjosWNxolImny7Fs_-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413" y="-930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-40" value="Generate random word" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="353" y="-1070" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#FF6392;fontColor=default;" edge="1" parent="1" source="WKKtjosWNxolImny7Fs_-42" target="WKKtjosWNxolImny7Fs_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKKtjosWNxolImny7Fs_-42" value="Generate blank letters." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFE45E;strokeColor=#FF6392;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="353" y="-950" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
