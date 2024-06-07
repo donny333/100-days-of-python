@@ -22,3 +22,17 @@ while not auction_over:
     clear()
     print(bidders_and_bids)
 
+winning_bid = 0
+winner = {
+
+}
+
+for key in bidders_and_bids:
+    if bidders_and_bids[key] > winning_bid:
+        winner = {
+            key: bidders_and_bids[key]
+        }
+        winning_bid = bidders_and_bids[key]
+
+
+print(winner)
