@@ -3,9 +3,8 @@ import os
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(logo)
 
-clear()
+print(logo)
 
 auction_over = False
 bidders_and_bids = {
@@ -14,13 +13,12 @@ bidders_and_bids = {
 
 while not auction_over:
     bidder_name = input("What is your name?\n")
-    bid = int(input("What is your bid?\n"))
+    bid = int(input("What is your bid?\n€"))
     bidders_and_bids[bidder_name] = bid
     last_bid = input("Are there more bidders? Type Y or N:\n")
+    clear()
     if last_bid.lower() == 'n':
         auction_over = True
-    clear()
-    print(bidders_and_bids)
 
 winning_bid = 0
 winner = {
@@ -34,5 +32,5 @@ for key in bidders_and_bids:
         }
         winning_bid = bidders_and_bids[key]
 
-
-print(winner)
+clear()
+print(f"Winning bid is {winner[next(iter(winner))]}€. And the winner is {next(iter(winner))}.")
