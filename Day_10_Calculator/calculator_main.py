@@ -11,13 +11,32 @@ def add(n1, n2):
     return n1 + n2
 
 #Substract
-def sub(n1, n2):
-    return n1 + n2
+def substract(n1, n2):
+    return n1 - n2
 
 #Multiply
-def mult(n1, n2):
-    return n1 + n2
+def multiply(n1, n2):
+    return n1 * n2
 
 #Divide
-def div(n1, n2):
-    return n1 + n2
+def divide(n1, n2):
+    return n1 / n2
+
+operations = {
+    "+": add,
+    "-": substract,
+    "*": multiply,
+    "/": divide,
+}
+
+clear()
+
+num1 = int(input("What's the first number?: "))
+for operation in operations:
+    print(operation)
+operation_symbol = input("Pick an operation from the line above: ")
+num2 = int(input("What's the second number?: "))
+
+answer = operations[operation_symbol](num1, num2)
+
+print(f"{num1} {operation_symbol} {num2} = {answer}")
