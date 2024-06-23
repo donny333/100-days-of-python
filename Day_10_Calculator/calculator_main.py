@@ -31,20 +31,22 @@ operations = {
 
 def calculator():
     clear()
-    num1 = int(input("What's the first number?: "))
+    num1 = float(input("What's the first number?: "))
     for operation in operations:
         print(operation)
     should_continue = True
     while should_continue:
         operation_symbol = input("Pick an operation from the line above: ")
-        num2 = int(input("What's the next number?: "))
+        num2 = float(input("What's the next number?: "))
         answer = operations[operation_symbol](num1, num2)
         print(f"{num1} {operation_symbol} {num2} = {answer}")
-        continue_calculations = input(f"Type 'y' to continue calculating with {answer}, or type 'n' start a new calculation.: ")
+        continue_calculations = input(f"Type 'y' to continue calculating with {answer}, type 'n' start a new calculation, or type 'e' to exit.: ")
         if continue_calculations == 'y':
             num1 = answer
-        else:
+        elif continue_calculations == 'n':
             should_continue = False
             calculator()
+        else:
+            return
 
 calculator()
