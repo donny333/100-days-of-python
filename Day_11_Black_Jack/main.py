@@ -13,12 +13,15 @@ def draw_a_card():
 def tot_score(hand):
     score = sum(hand)
     alternative_hand = []
+    if score == 21 and len(hand) == 2:
+        return 0
     if score > 21 and 11 in hand:
         for i in hand:
             if i == 11:
                 alternative_hand.append(1)
             else:
                 alternative_hand.append(i)
+
     if len(alternative_hand) == 0:
         return score
     else:
@@ -36,14 +39,20 @@ def game_final_info(player_hand, computer_hand):
 
 
 def game_winnings(player_hand, computer_hand):
-    if tot_score(player_hand) > 21:
+    if tot_score(player_hand) == tot_score(computer_hand):
+        print("It's a draw 😃")
+    elif tot_score(player_hand) == 0:
+        print("You got BlackJack. You win 😃")
+    elif tot_score(computer_hand) == 0:
+        print("Computer got BlackJack. You lose 😭")
+    elif tot_score(player_hand) > 21:
         print("You went over. You lose 😭")
+    elif tot_score(computer_hand) > 21:
+        print("Computer went over. You win 😃")
     elif tot_score(player_hand) > tot_score(computer_hand):
         print("You win 😃")
     elif tot_score(player_hand) < tot_score(computer_hand):
         print("You lost the game 😭")
-    elif tot_score(player_hand) == tot_score(computer_hand):
-        print("It's a draw 😃")
 
 
 def game():
@@ -52,6 +61,9 @@ def game():
     computer_hand = [draw_a_card(), draw_a_card()]
 
     hit = True
+    if tot_score(player_hand) == 0:
+        hit = False
+
     while hit:
         game_info(player_hand, computer_hand)
         another_card = input("Type 'y' to get another card, type 'n' to pass: ")
@@ -82,4 +94,5 @@ while game_on:
     if want_to_play != 'y':
         game_on = False
     else:
+        print("\n" * 20)
         game()
